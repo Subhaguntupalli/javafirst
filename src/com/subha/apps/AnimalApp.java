@@ -1,4 +1,4 @@
-package com.second.apps;
+package com.subha.apps;
 
 import com.second.beings.Animal;
 import com.second.beings.Cat;
