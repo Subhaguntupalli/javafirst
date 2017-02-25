@@ -1,5 +1,6 @@
 package com.subha.vehicles;
 
+
 public class Truck extends Vehicle implements Favorite {
 	
 	public void myname() {

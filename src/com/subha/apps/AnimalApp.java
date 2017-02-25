@@ -1,10 +1,10 @@
 package com.subha.apps;
 
-import com.second.beings.Animal;
-import com.second.beings.Cat;
-import com.second.beings.Cow;
-import com.second.beings.Dog;
-import com.second.beings.Pet;
+import com.subha.beings.Animal;
+import com.subha.beings.Cat;
+import com.subha.beings.Cow;
+import com.subha.beings.Dog;
+import com.subha.beings.Pet;
 
 public class AnimalApp {
 	public static void main(String[] args) {
