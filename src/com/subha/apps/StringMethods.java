@@ -2,9 +2,9 @@ package com.subha.apps;
 
 public class StringMethods {
 	 
-		public static void main(String args[]){  
-		//CharAT()
-			String name="subha";  
+		public static void main(String args[]){ 
+		
+		String name="subha";  
 		char character=name.charAt(4); 
 		System.out.println(character);  
 		
