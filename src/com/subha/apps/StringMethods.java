@@ -1,5 +1,12 @@
 package com.subha.apps;
 
+/**
+ * This class uses some String methods. 
+ *    The following methods are used.
+ *    
+ * @author RIDHI
+ *
+ */
 public class StringMethods {
 	 
 		public static void main(String args[]){ 
@@ -68,4 +75,3 @@ public class StringMethods {
 		} 
 	
 }
-

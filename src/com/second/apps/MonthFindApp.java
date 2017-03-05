@@ -1,48 +1,29 @@
 package com.second.apps;
 
+import com.subha.examples.MonthFinder;
+import com.subha.examples.NotAValidInput;
+import com.subha.examples.NotAValidMonthNumber;
+
+/**
+ * This is a monthFinder app. And it will take a integer and print the month name
+ * corresponding to the integer.
+ * 
+ * @author RIDHI
+ *
+ */
 public class MonthFindApp {
 
 	public static void main(String[] args) {
-		int month = 12;
-		switch (month) {
-		case 1:
-			System.out.println("January");
-			break;
-		case 2:
-			System.out.println("February");
-			break;
-		case 3:
-			System.out.println("March");
-			break;
-		case 4:
-			System.out.println("April");
-			break;
-		case 5:
-			System.out.println("May");
-			break;
-		case 6:
-			System.out.println("June");
-			break;
-		case 7:
-			System.out.println("July");
-			break;
-		case 8:
-			System.out.println("August");
-			break;
-		case 9:
-			System.out.println("September");
-			break;
-		case 10:
-			System.out.println("October");
-			break;
-		case 11:
-			System.out.println("November");
-			break;
-		case 12:
-			System.out.println("December");
-			break;
+		MonthFinder monthFinder = new MonthFinder();
+		
+		try {
+			String monthName = monthFinder.findMonth(args[0]);
+			System.out.println("The name of the month for your input is: "+monthName);
+		} catch (NotAValidInput e) {
+		   System.out.println("Hey! please give a number input");
+		} catch (NotAValidMonthNumber e) {
+			System.out.println("Hey! please give a number between 1 and 12");
 		}
-
 	}
 
 }
