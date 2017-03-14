@@ -22,10 +22,13 @@ public class SplitURL {
 		   splits[2] = splitOne[3];
 	   }else if(splitTwo.length==2){
 		   splits = new String[4];
+		   splits[0] = splitOne[0];
+		   splits[1] = splitOne[2];
+		   splits[2] = splitOne[3];
+		   splits[3] = splitOne[4];
 	   }
-	   
 	   
 	   return splits;
    }
-
+   
 }

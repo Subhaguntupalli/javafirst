@@ -23,5 +23,21 @@ public class IntWrapper {
             System.out.println("Comparing using compare f1 and f3: " +Float.compare(f1,f3));   
             Float f = i1.floatValue() + f1;  
             System.out.println("Addition of intObj1 and f1: "+ i1 +"+" +f1+"=" +f );  
+            
+            String  s3[] = {"10", "20"};
+            System.out.println("Sum before:"+ s3[0] + s3[1]); 
+            int xx=Integer.parseInt(s3[0]); 
+            int yy=Integer.parseInt(s3[1]); 
+            int z=xx+yy;
+            System.out.println("sum after: "+z);
+            
+            Integer intWrapper = Integer.valueOf("12345");
+            
+             Integer intWrapper2 = Integer.valueOf("11011", 2);
+             Integer intWrapper3 = Integer.valueOf("D", 16); 
+              System.out.println("Value of intWrapper2 Object: "+ intWrapper2);
+            System.out.println("Value of intWrapper3 Object: "+ intWrapper3);
+            System.out.println("Hex value of intWrapper: " + Integer.toHexString(intWrapper));
+            System.out.println("Binary Value of intWrapper2: "+ Integer.toBinaryString(intWrapper2));
  }
 }

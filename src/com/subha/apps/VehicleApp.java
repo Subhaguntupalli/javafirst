@@ -1,10 +1,10 @@
 package com.subha.apps;
 
+import com.subha.vehicles.Vehicle;
 import com.subha.vehicles.Bus;
 import com.subha.vehicles.Car;
-import com.subha.vehicles.Favorite;
 import com.subha.vehicles.Truck;
-import com.subha.vehicles.Vehicle;
+import com.subha.vehicles.Favorite;
 
 public class VehicleApp {
 	public static void main(String[] args) {

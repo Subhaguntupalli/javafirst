@@ -37,16 +37,16 @@
 							<goal>java</goal>
 						</goals>
 						<configuration>
-							<mainClass>com.subha.apps.AnimalApp</mainClass>
+							<mainClass>com.subha.apps.DistintNumbersApp</mainClass>
 							<arguments>
-								<argument>3</argument>
-								<argument>arg1</argument>
+								<argument>5</argument>
+								<argument>11</argument>
+								<argument>11</argument>
 							</arguments>
 						</configuration>
 					</execution>
 				</executions>
 			</plugin>
 		</plugins>
-
 	</build>
 </project>

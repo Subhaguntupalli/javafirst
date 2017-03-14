@@ -1,4 +1,4 @@
-package com.second.apps;
+package com.subha.apps;
 
 import com.subha.examples.MonthFinder;
 import com.subha.examples.NotAValidInput;

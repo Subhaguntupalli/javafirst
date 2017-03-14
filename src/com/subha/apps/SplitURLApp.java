@@ -1,4 +1,4 @@
-package com.second.apps;
+package com.subha.apps;
 import com.subha.examples.NotAValidInput;
 import com.subha.examples.SplitURL;
 
@@ -15,8 +15,12 @@ public class SplitURLApp {
 				System.out.println("Protocol: "+urlSplits[0]);
 				System.out.println("DNSNAME: "+urlSplits[1]);
 				System.out.println("Path: "+urlSplits[2]);
-				//similarly other two
+				
 			}else if(urlSplits.length==4){
+				System.out.println("Protocol: "+urlSplits[0]);
+				System.out.println("IPAddress: "+urlSplits[1]);
+				System.out.println("PortNo: "+urlSplits[2]);
+				System.out.println("Path: "+urlSplits[3]);
 				
 			}else{
 				System.out.println("URL split gave wrong output");
